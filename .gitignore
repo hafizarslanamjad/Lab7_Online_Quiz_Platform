@@ -1,1 +1,10 @@
 venv/
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore coverage reports
+.coverage
+
+# Ignore database files
+quiz_app.db
